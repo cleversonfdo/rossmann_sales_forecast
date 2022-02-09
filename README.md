@@ -4,7 +4,9 @@
 
 This project is based on the dataset of Rossmann european drugstore . The data is available in kaggle site for a closed data competition. The values on the dataset are real, but the scenario used is ficticious. 	The source of the dataset and website company can be viewed on the links below:
 
-(https://www.kaggle.com/c/rossmann-store-sales)(https://www.rossmann.de/de/)
+https://www.kaggle.com/c/rossmann-store-sales
+
+https://www.rossmann.de/de/
 
 Due to machine processing limit, the raw dataset was randomly reduced to 500.000 rows.
 
