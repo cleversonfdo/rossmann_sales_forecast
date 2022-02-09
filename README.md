@@ -1,5 +1,7 @@
 # Rossmann Forecast Sales
 
+![image](https://user-images.githubusercontent.com/87786119/153108159-88c64375-f34d-4c4b-920e-d312400738a9.png)
+
 ## Disclaimer
 
 This project is based on the dataset of Rossmann european drugstore. The data is available in kaggle site for a closed data competition. The values on the dataset are real, but the scenario used is fictitious. The source of the dataset and website company can be viewed on the links below:
