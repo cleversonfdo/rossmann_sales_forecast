@@ -1,6 +1,6 @@
 # Rossmann Forecast Sales
 
-![image](https://user-images.githubusercontent.com/87786119/153108159-88c64375-f34d-4c4b-920e-d312400738a9.png)
+<img src="https://user-images.githubusercontent.com/87786119/153109359-3e776df6-255b-43e5-bcea-c7a12f5ea31a.png" width="1000">
 
 ## Disclaimer
 
