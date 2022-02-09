@@ -157,3 +157,6 @@ For the next iterations of the project cycle:
 ## Appendix:
 
 Telegram APP bot working:
+
+![bot_telegram](https://user-images.githubusercontent.com/87786119/153106634-fb696fdc-f402-40ab-abea-ae466664e56d.jpeg)
+
