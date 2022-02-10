@@ -1,3 +1,6 @@
+# ROSSMANN FORECAST SALES
+
+
 ## Disclaimer
 
 This project is based on the dataset of Rossmann european drugstore. The data is available in kaggle site for a closed data competition. The values on the dataset are real, but the scenario used is ficticious. The source of the dataset and website company can be viewed on the links below:
@@ -90,38 +93,19 @@ Top three Hyphotesis:
 
 False: even that the year 2015 is not finished yet, the amount of sells is decreasing, it’s a concern insight. 
 
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/87786119/153325296-b9272790-a0fe-48d6-a5ae-95b1fc37ceb4.png)
 
 **H2:** Stores should sell more on the second semester
 
 False: The majority of sells are in the first seven months.
 
-
-
-
-
-
-**H2:** Stores should sell more on the second semester
-
-False: The majority of sells are in the first seven months.
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/87786119/153325314-7857af0d-488a-4132-9f36-aa9fa68d789b.png)
 
 **H3:** For each month, stores should sell more after the 10th day.
 
 True: Although the mean sell decrease through the month, the amount of sell after the 10th day is above the amount of sells in the first 10 days.
 
-
-
+![image](https://user-images.githubusercontent.com/87786119/153325358-9d4b44e5-2a90-4923-876d-0177a35b313b.png)
 
 
 # 5. Business Results
@@ -159,14 +143,11 @@ The table below shows the final information get from product proposed with the m
 In general, the results profit expected for all company in the next 6 weeks are in the table below.
 
 
-Scenario
-Values
-prediction
-R$137,971,264.00
-worst_scenario
-R$136,824,335.10
-best_scenario
-R$139,118,187.61
+|Scenario         |  Values            |
+|:----------------:|:-----------------:|
+|prediction	  | R$137,971,264.00|
+|worst_scenario   |  R$136,824,335.10|
+|best_scenario    |  R$139,118,187.61|
 
 
 # 6. Conclusion
