@@ -61,15 +61,25 @@ Git and Github
 ## 3.3 Process
 	
 **Step 01.** Data Description: in this step some adaptations are made in the dataset so it is possible to identify dimension, types, presence of nan values and change types. Identify numerical and categorical features and appply some statistical metrics to analyze mean, median, maximum, minimum, range, skew, kurtosis and standard deviation.
+
 **Step 02.** Feature Engineering: in this step new features are created and some are modified to better understand the columns date, competition and promo time interval and assortment and state holiday columns.
+
 **Step 03.** Data Filtering: in this step some rows and columns are dropped if it doesn’t make sense for the project scope or there isn’t enough information to deal with that feature.
+
 **Step 04.** Exploratory Data Analysis: in this step the data is analyzed to better understand the impact of the features in the project and model learn, and get insights from results.
+
 **Step 05.** Data Preparation: in this step some transformations such as numerical and nature transformation are made to prepare the data for the machine learning model.
+
 **Step 06.** Feature Selection: in this step Boruta Algorithm is used to select the better attributes  that better represents the target feature (sales) and use them to train the model.
+
 **Step 07.** Machine Learning Modeling: in this step the machine learning model training is made and regardless of the result the XGBoost model was used for study purpose.
+
 **Step 08.** Hyperparameter Fine Tunning: in this step the XGBoost model is tuned with some aditional hyperparameters to get the final model.
+
 **Step 09.** Understang Model Performance for Business Results: this is the most important step where the model performance is translated to a business results.
+
 **Step 10.** Deploy Model to Production: in this step the model is published in a cloud platform for other peoples or devices access the solution proposed. The cloud platform choosed was Heroku.
+
 **Step 11.** Telegram Bot: in this step the already online tool is made available for the user from the Telegram App. The user will be able to request the performance of a store just by informing the store id.
 
 # 4. Data Insights
@@ -121,81 +131,31 @@ True: Although the mean sell decrease through the month, the amount of sell afte
 It was evaluated four machine learning models, they are: Linear Regression, Lasso, Random Forest Regressor and XGBoost Regressor. The table below ilustrates the cross-validation performance of each model tested.
 
 
-Model Name
-MAE CV
-MAPE CV
-RMSE CV
-Linear Regression
-2083.37+/-299.73
-0.3+/-0.02
-2953.27+/-471.41
-Lasso
-2118.62+/-343.52
-0.29+/-0.01
-3059.92+/-507.1
-Random Forest Regressor
-913.25+/-289.67
-0.13+/-0.03
-1361.05+/-447.88
-XGBoost Regressor
-7351.2+/-602.71
-1.0+/-0.0
-8003.64+/-702.78
+|Model Name               |  MAE CV              |    MAPE CV       |    RMSE CV  	   |
+|:-----------------------:|:--------------------:|:----------------:|:--------------------:|
+|Linear Regression        |  2083.37+/-299.73    |   0.3+/-0.02     |   2953.27+/-471.41   |
+|Lasso 			  |  2118.62+/-343.52    |   0.29+/-0.01    |   3059.92+/-507.1    |
+|Random Forest Regressor  |  913.25+/-289.67     |    0.13+/-0.03   |    1361.05+/-447.88  |
+|XGBoost Regressor	  |  7351.2+/-602.71     |    1.0+/-0.0     |    8003.64+/-702.78  |
 
 Although the Random Forest Regressor model performed better, for study purpose the XGBoost Regressor was used. After the hyperparameter fine tuning the final model of machine learning get the performance ilustrated in the table below. Note that MPE is slightly negative, so the model are smoothly superestimating the sales.
 
-Model Name
-MAE
-MAPE
-RMSE
-MPE
-XGBoost Regressor
-1021.659361
-0.153375
-1484.171493
--0.023586
+|Model Name                 | MAE                |    MAPE       |        RMSE             |        MPE         |
+|:-------------------------:|:------------------:|:-------------:|:-----------------------:|:------------------:|
+|XGBoost Regressor          |  1021.659361       |    0.153375   |        1484.171493      |          -0.023586 |
 
 ## 5.2 Business Performance
 
 The table below shows the final information get from product proposed with the most important business parameters to help the business team to make better decisions.
 
-store
-prediction
-worst_scenario
-best_scenario
-MAE
-MAPE
-1
-85812.804688
-85377.153605
-86248.455770
-435.651082
-0.096281
-2
-89881.062500
-89394.285482
-90367.839518
-486.777018
-0.106782
-3
-112075.726562
-111530.881256
-112620.571869
-544.845306
-0.073738
-4
-205741.937500
-204548.615808
-206935.259192
-1193.321692
-0.116214
-5
-83999.531250
-83606.047877
-84393.014623
-393.483373
-0.096854
-
+|store            |    prediction	|   worst_scenario	|		best_scenario	|		MAE		|	MAPE	|
+|:---------------:|:------------------:|:-----------------------:|:-----------------------------:|:------------------------------:|:---------------:|
+|1		    |85812.804688		|85377.153605			|86248.455770			|435.651082		|0.096281|
+|2		    |89881.062500		|89394.285482			|90367.839518			|486.777018		|0.106782|
+|3		    |112075.726562		|111530.881256			|112620.571869			|544.845306		|0.073738|
+|4		    |205741.937500		|204548.615808			|206935.259192			|1193.321692		|0.116214|
+|5		    |83999.531250		|83606.047877			|84393.014623			|393.483373		|0.096854|
+|
 In general, the results profit expected for all company in the next 6 weeks are in the table below.
 
 
