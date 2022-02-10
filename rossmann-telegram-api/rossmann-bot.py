@@ -14,8 +14,11 @@ TOKEN = '5123518599:AAEnQzt3i35c5lUhtQPc_-2tjD3di541uoI'
 # Get updates
 #https://api.telegram.org/bot5123518599:AAEnQzt3i35c5lUhtQPc_-2tjD3di541uoI/getUpdates
 
-# Set Webhook
-#https://api.telegram.org/bot5123518599:AAEnQzt3i35c5lUhtQPc_-2tjD3di541uoI/setWebhook?url=https://rossmann-bot-cleversonfdo.herokuapp.com
+##### Set Webhook heroku #######
+
+#https://api.telegram.org/bot5123518599:AAEnQzt3i35c5lUhtQPc_-2tjD3di541uoI/setWebhook?url=https://botapp-telegram-rossmann.herokuapp.com
+
+##################################
 
 # send message
 #https://api.telegram.org/bot5123518599:AAEnQzt3i35c5lUhtQPc_-2tjD3di541uoI/sendMessage?chat_id=1051749277&text=Hi Work
@@ -63,7 +66,7 @@ def predict(data):
 
 	# API call
 	#url = 'http://0.0.0.0:5000/rossmann/predict'
-	url = 'https://rossmann-model-cleversonfdo.herokuapp.com/rossmann/predict'
+	url = 'https://botapp-rossmann.herokuapp.com/rossmann/predict'
 	header = {'Content-type' : 'application/json'}
 	data = data
 
