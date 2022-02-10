@@ -1,5 +1,6 @@
 # ROSSMANN FORECAST SALES
 
+<img src="https://user-images.githubusercontent.com/87786119/153325510-431e7c70-920a-4c15-852c-316a0bb4356f.png" width="1000">
 
 ## Disclaimer
 
@@ -165,3 +166,5 @@ For the next iterations of the project cycle:
 **Appendix:**
 
 Telegram APP bot working:
+
+![telegram_bot](https://user-images.githubusercontent.com/87786119/153326560-85d10a83-5f0d-4653-8865-45037ae555b3.jpeg)
