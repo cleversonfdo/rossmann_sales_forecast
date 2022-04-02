@@ -74,7 +74,7 @@ Git and Github
 
 **Step 05.** Data Preparation: in this step some transformations such as numerical and nature transformation are made to prepare the data for the machine learning model.
 
-**Step 06.** Feature Selection: in this step Boruta Algorithm is used to select the better attributes  that better represents the target feature (sales) and use them to train the model.
+**Step 06.** Feature Selection: in this step Boruta Algorithm is used to select the attributes that better represents the target feature (sales) and use them to train the model.
 
 **Step 07.** Machine Learning Modeling: in this step the machine learning model training is made and regardless of the result the XGBoost model was used for study purpose.
 
