@@ -4,7 +4,7 @@
 
 ## Disclaimer
 
-This project is based on the dataset of Rossmann european drugstore. The data is available in kaggle site for a closed data competition. The values on the dataset are real, but the scenario used is ficticious. The source of the dataset and website company can be viewed on the links below:
+This project is based on the dataset of Rossmann european drugstore. The data is available in kaggle site for a closed data competition. The values on the dataset are real, but the scenario used is fictitious. The source of the dataset and website company can be viewed on the links below:
 
 https://www.kaggle.com/c/rossmann-store-sales
 
